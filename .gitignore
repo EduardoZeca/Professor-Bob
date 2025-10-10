@@ -1,0 +1,24 @@
+# Ambiente Virtual do Python
+.venv/
+venv/
+__pycache__/
+
+# Dependências do Node.js
+node_modules/
+
+# Arquivos de IDE e editores
+.vscode/
+.idea/
+
+# Arquivos de sistema operacional
+.DS_Store
+Thumbs.db
+
+# Arquivos de log e build
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Outros arquivos que você não queira enviar
+# ex: senhas.txt
