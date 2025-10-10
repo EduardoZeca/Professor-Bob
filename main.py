@@ -239,7 +239,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-api_key = os.environ.get("GEMINI_API_KEY", "AIzaSyA1ks545KdaDGNuf3mEhG99H5EyTaeqPq8")
+api_key = os.environ.get("GEMINI_API_KEY", "")
 client_options = client_options_lib.ClientOptions(api_endpoint="generativelanguage.googleapis.com")
 genai.configure(api_key=api_key, client_options=client_options, transport="rest")
 
